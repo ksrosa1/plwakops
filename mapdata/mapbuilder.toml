@@ -1,0 +1,21 @@
+[data]
+
+[data.epgd_kml]
+type = "kml"
+source = "kml/EPGD.kml"
+root = "EPGD"
+
+[data.epkk_kml]
+type = "kml"
+source = "kml/EPKK.kml"
+root = "EPKK"
+
+[data.epkt_kml]
+type = "kml"
+source = "kml/EPKT.kml"
+root = "EPKT"
+
+[data.epwa_kml]
+type = "kml"
+source = "kml/EPWA.kml"
+root = "EPWA"
