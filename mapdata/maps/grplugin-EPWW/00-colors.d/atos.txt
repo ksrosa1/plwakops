@@ -1,0 +1,8 @@
+COLORDEF:base:39:41:61
+COLORDEF:runway:63:65:83
+COLORDEF:taxiway:74:75:93
+COLORDEF:holdingpoint:89:90:102
+COLORDEF:stopbar:193:121:4
+COLORDEF:taxilane:80:82:99
+COLORDEF:infrastructure:76:78:96
+COLORDEF:labels-twy:245:241:93
