@@ -14,6 +14,7 @@ maps = [
     { map = "grplugin-settings", target = "EPWW/Plugins/GRPlugin/GRpluginSettings.txt" },
 ]
 dir = "EPWW/Plugins/"
+aliases = [ "epww" ]
 
 [runways]
 
