@@ -1,21 +1,20 @@
 [data]
 
-[data.epgd_kml]
-type = "kml"
-source = "kml/EPGD.kml"
-root = "EPGD"
-
-[data.epkk_kml]
-type = "kml"
-source = "kml/EPKK.kml"
-root = "EPKK"
-
 [data.epkt_kml]
 type = "kml"
 source = "kml/EPKT.kml"
 root = "EPKT"
 
-[data.epwa_kml]
-type = "kml"
-source = "kml/EPWA.kml"
-root = "EPWA"
+[runways]
+
+[runways.EPKT.08]
+thr = [ 50.476050, 19.059569 ]
+bearing = 90.2
+fap = [ 50.476278, 18.897333 ] # KT736
+loc = [ ]
+
+[runways.EPKT.26]
+thr = [ 50.475961, 19.100139 ]
+bearing = 270.2
+fap = [ 50.475472, 19.259639 ] # KT536
+loc = [ 50.476056, 19.055639 ]
