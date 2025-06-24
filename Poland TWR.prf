@@ -56,9 +56,9 @@ Plugins	Plugin5Display0	Ground Radar display
 Plugins	Plugin5Display1	SMR radar display
 Plugins	Plugin5Display2	Standard ES radar screen
 LastSession	connecttype	0
-LastSession	realname	Jan Kargul
-LastSession	certificate	1497576
-LastSession	password	q36S8gDm
+LastSession	realname	
+LastSession	certificate	
+LastSession	password
 LastSession	facility	4
 LastSession	rating	2
 LastSession	server	AUTOMATIC
@@ -131,7 +131,6 @@ Plugins	Plugin12	\EPWW\Plugins\DiscordEuroscope.dll
 Plugins	Plugin12Display0	Ground Radar display
 Plugins	Plugin12Display1	Standard ES radar screen
 Plugins	Plugin2Display2	Standard ES radar screen
-LastSession	playback	C:\Users\zkarg\OneDrive\Dokumenty\ATC logi\EuroScope20250607alan.txt
 Settings	SettingsfileORIGPLANE	\EPWW\Settings\TWR.txt
 Settings	SettingsfileSTUP	\EPWW\Settings\TWR.txt
 Settings	SettingsfileTAXIOUT	\EPWW\Settings\TWR.txt
