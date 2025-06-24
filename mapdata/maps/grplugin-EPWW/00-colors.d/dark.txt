@@ -1,3 +1,4 @@
+COLORDEF:base:10:10:10
 COLORDEF:runway:78:78:78
 COLORDEF:runway-marking:150:150:150
 COLORDEF:runway-grass:59:100:59
@@ -11,7 +12,6 @@ COLORDEF:taxilane-orange:161:82:14
 COLORDEF:standline:80:80:80
 COLORDEF:holdingpoint:255:255:255
 COLORDEF:stopbar:193:121:4
-COLORDEF:base:10:10:10
 
 COLORDEF:labels-stand:201:201:201
 COLORDEF:labels-twy:255:255:0
@@ -21,7 +21,6 @@ COLORDEF:tora-label:200:200:200
 
 COLORDEF:closure:113:37:39
 COLORDEF:closure-mark:185:59:46
-COLORDEF:restriction:112:105:37
 
 COLORDEF:lvp:30:100:240
 
@@ -37,7 +36,6 @@ COLORDEF:deice:0:210:210
 
 COLORDEF:road:40:40:40
 COLORDEF:river:81:104:186
-COLORDEF:highway:52:34:0
 
 COLORDEF:restriction-30:255:138:101
 COLORDEF:restriction-36:244:143:177
