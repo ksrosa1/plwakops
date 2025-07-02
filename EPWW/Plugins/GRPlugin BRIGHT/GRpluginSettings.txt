@@ -1,0 +1,11 @@
+Color_APP_Background=0,0,0
+Color_Runway=150,150,150
+Color_APP_RunwayExtension=100,100,100
+
+Color_AppPath_Background=51,51,51
+Color_AppPath_Fill_H=140,125,110
+Color_AppPath_Fill_V=100,115,130
+Color_AppPath_Grid=105,105,105
+Color_AppPath_Grid5=130,105,80
+Color_AppPath_Path=140,140,140
+Color_AppPath_Track=0,0,130
