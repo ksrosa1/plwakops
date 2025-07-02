@@ -14,12 +14,13 @@
 	<DefaultTaxiTime minutes="7" />
 	<DeIceTimes light="3" medium="5" heavy="7" super="10"/>
 	<RefreshTime seconds="5" />
-	<Debug mode="false" />
+	<Debug mode="true" />
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
 	<vdgsFileType type="3" />
 	<ftpHost host="" />
 	<ftpUser user="" />
 	<ftpPassword password="" />
+	<sftpConnection mode="true" />
 	<Server mode="true" />
 	<Su_Wait mode="false" />
 </CDM>
