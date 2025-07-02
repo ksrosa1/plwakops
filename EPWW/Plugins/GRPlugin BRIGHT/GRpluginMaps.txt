@@ -5981,6 +5981,7 @@ MAP:Holding Points
 AIRPORT:EPWA
 FOLDER:Holding Points
 COLOR:holdingpoint
+ACTIVE:LVP:EPWA:0
 STYLE:Solid:2
 ACTIVE:1
 
@@ -9656,6 +9657,7 @@ MAP:Holding Points
 AIRPORT:EPGD
 FOLDER:Holding Points
 COLOR:holdingpoint
+ACTIVE:LVP:EPGD:0
 STYLE:Solid:2
 ACTIVE:1
 
