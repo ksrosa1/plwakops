@@ -2304,7 +2304,6 @@
 		</Folder>
 		<Folder>
 			<name>TWY</name>
-			<open>1</open>
 			<Placemark>
 				<name>A</name>
 				<styleUrl>#msn_ylw-pushpin3</styleUrl>
@@ -2995,7 +2994,6 @@
 		</Folder>
 		<Folder>
 			<name>APN</name>
-			<open>1</open>
 			<Placemark>
 				<name>APN 1</name>
 				<styleUrl>#msn_ylw-pushpin</styleUrl>
@@ -4066,7 +4064,7 @@
 			</Placemark>
 		</Folder>
 		<Folder>
-			<name>Taxilines</name>
+			<name>Taxilanes</name>
 			<Placemark>
 				<name>11/29</name>
 				<open>1</open>
