@@ -5,6 +5,11 @@ type = "kml"
 source = "kml/EPGD.kml"
 root = "EPGD"
 
+[data.epkk_kml]
+type = "kml"
+source = "kml/EPKK.kml"
+root = "EPKK"
+
 [data.epkt_kml]
 type = "kml"
 source = "kml/EPKT.kml"
@@ -14,6 +19,11 @@ root = "EPKT"
 type = "kml"
 source = "kml/EPMO.kml"
 root = "EPMO"
+
+#[data.eppo_kml]
+#type = "kml"
+#source = "kml/EPPO.kml"
+#root = "EPPO"
 
 [data.epwa_kml]
 type = "kml"
@@ -68,17 +78,17 @@ bearing = 293.0
 fap = [ 54.321028, 18.693972 ] # GD941
 loc = [ 54.382306, 18.447028 ]
 
-#[runways.EPKK.07]
-#thr = [ 50.075397, 19.768094 ]
-#bearing = 78.0
-#fap = [ 50.051389, 19.596750 ] # KK591
-#loc = [ ]
+[runways.EPKK.07]
+thr = [ 50.075397, 19.768094 ]
+bearing = 78.0
+fap = [ 50.051389, 19.596750 ] # KK591
+loc = [ ]
 
-#[runways.EPKK.25]
-#thr = [ 50.079792, 19.799658 ]
-#bearing = 258.0
-#fap = [ 50.103667, 19.972167 ] # KK367
-#loc = [ 50.074917, 19.764694 ]
+[runways.EPKK.25]
+thr = [ 50.079792, 19.799658 ]
+bearing = 258.0
+fap = [ 50.103667, 19.972167 ] # KK367
+loc = [ 50.074917, 19.764694 ]
 
 [runways.EPKT.08]
 thr = [ 50.476050, 19.059569 ]
@@ -103,6 +113,18 @@ thr = [ 52.452928, 20.670039 ]
 bearing = 261.0
 fap = [ 52.470583, 20.859750 ] # MO998
 loc = [ ]
+
+#[runways.EPPO.10]
+#thr = [ 52.424958, 16.806006 ]
+#bearing = 107.5
+#fap = [ 52.450722, 16.672083 ] # PO601
+#loc = [ ]
+
+#[runways.EPPO.28]
+#thr = [ 52.418175, 16.841094 ]
+#bearing = 287.6
+#fap = [ 52.379194, 17.041528 ] # PO701
+#loc = [ 52.425833, 16.801444 ]
 
 [runways.EPWA.11]
 thr = [ 52.171475, 20.946714 ]
