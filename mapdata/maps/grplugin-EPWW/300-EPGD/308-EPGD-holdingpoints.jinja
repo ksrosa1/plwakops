@@ -4,7 +4,6 @@ FOLDER:Holding Points
 COLOR:holdingpoint
 ACTIVE:LVP:EPGD:0
 STYLE:Solid:2
-ACTIVE:1
 {% set default = 0.000005 %}
 {% for name, geom in data.epgd_kml['HP CATI'].items() %}
     {% if geom[0].__class__.__name__ == 'LinearRing' %}
