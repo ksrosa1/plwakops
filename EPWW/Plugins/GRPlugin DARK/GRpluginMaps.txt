@@ -12467,7 +12467,6 @@ FOLDER:Holding Points
 COLOR:holdingpoint
 ACTIVE:LVP:EPGD:0
 STYLE:Solid:2
-ACTIVE:1
 
 
     // A1
