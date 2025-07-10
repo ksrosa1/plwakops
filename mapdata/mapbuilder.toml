@@ -20,10 +20,10 @@ type = "kml"
 source = "kml/EPMO.kml"
 root = "EPMO"
 
-#[data.eppo_kml]
-#type = "kml"
-#source = "kml/EPPO.kml"
-#root = "EPPO"
+[data.eppo_kml]
+type = "kml"
+source = "kml/EPPO.kml"
+root = "EPPO"
 
 [data.epwa_kml]
 type = "kml"
@@ -105,17 +105,17 @@ bearing = 261.0
 fap = [ 52.470583, 20.859750 ] # MO998
 loc = [ ]
 
-#[runways.EPPO.10]
-#thr = [ 52.424958, 16.806006 ]
-#bearing = 107.5
-#fap = [ 52.450722, 16.672083 ] # PO601
-#loc = [ ]
+[runways.EPPO.10]
+thr = [ 52.424958, 16.806006 ]
+bearing = 107.5
+fap = [ 52.450722, 16.672083 ] # PO601
+loc = [ ]
 
-#[runways.EPPO.28]
-#thr = [ 52.418175, 16.841094 ]
-#bearing = 287.6
-#fap = [ 52.379194, 17.041528 ] # PO701
-#loc = [ 52.425833, 16.801444 ]
+[runways.EPPO.28]
+thr = [ 52.418175, 16.841094 ]
+bearing = 287.6
+fap = [ 52.379194, 17.041528 ] # PO701
+loc = [ 52.425833, 16.801444 ]
 
 [runways.EPWA.11]
 thr = [ 52.171475, 20.946714 ]
