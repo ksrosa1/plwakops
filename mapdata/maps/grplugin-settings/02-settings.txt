@@ -320,7 +320,7 @@ Airport_Dep_Transfer_Dist=10
 Airport_Elevation=308
 Airport_Radius=2.0
 Airport_Dep_Transfer_Height=2000
-Airport_LVP=0
+Airport_LVP=1
 
 [EPRA]
 Airport_Elevation=623
