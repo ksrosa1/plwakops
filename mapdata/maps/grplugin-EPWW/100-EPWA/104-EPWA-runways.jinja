@@ -4,5 +4,5 @@ FOLDER:Airport Layout
 ACTIVE:1
 
 {% for name, geom in data.epwa_kml['RWY'].items() %}
-    {{- geom | to_poly(name, 'runway') }}
+    {{- geom | to_poly(name, 'runwayepwa') }}
 {% endfor %}
