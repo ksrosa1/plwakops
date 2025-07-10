@@ -46,7 +46,7 @@ maps = [
 dir = "EPWW/Plugins/"
 aliases = [ "dark" ]
 
-[profiles.TWR_BRIGHT]
+[profiles.TWR_ATOS]
 maps = [
     { map = "grplugin-EPWW", target = "EPWW/Plugins/GRPlugin BRIGHT/GRpluginMaps.txt" },
     { map = "grplugin-stands", target = "EPWW/Plugins/GRPlugin BRIGHT/GRpluginStands.txt" },
@@ -54,15 +54,6 @@ maps = [
 ]
 dir = "EPWW/Plugins/"
 aliases = [ "bright" ]
-
-#[profiles.TWR_SMR]
-#maps = [
-#    { map = "grplugin-EPWW", target = "EPWW/Plugins/GRPlugin SMR/GRpluginMaps.txt" },
-#    { map = "grplugin-stands", target = "EPWW/Plugins/GRPlugin SMR/GRpluginStands.txt" },
-#    { map = "grplugin-settings", target = "EPWW/Plugins/GRPlugin SMR/GRpluginSettings.txt" },
-#]
-#dir = "EPWW/Plugins/"
-#aliases = [ "smr" ]
 
 [runways]
 
