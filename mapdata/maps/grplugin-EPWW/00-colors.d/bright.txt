@@ -1,4 +1,5 @@
 COLORDEF:base:39:41:61
+COLORDEF:basectr:39:41:61
 COLORDEF:runway:63:65:83
 COLORDEF:runway-marking:80:82:99
 COLORDEF:runway-grass:63:65:83
@@ -38,8 +39,17 @@ COLORDEF:helipad:92:61:12
 
 COLORDEF:deice:0:210:210
 
-COLORDEF:road:76:78:96
+COLORDEF:road:30:30:30
 COLORDEF:river:21:84:208
+
+COLORDEF:baseepwa:66:121:68
+COLORDEF:runwayepwa:45:45:45
+COLORDEF:apronepwa:45:45:45
+COLORDEF:buildingepwa:5:5:5
+COLORDEF:taxiwayepwa:45:45:45
+COLORDEF:taxilaneepwa:105:105:105
+COLORDEF:standlineepwa:105:105:105
+COLORDEF:holdingpointepwa:255:255:255
 
 COLORDEF:restriction-30:255:138:101
 COLORDEF:restriction-36:244:143:177
