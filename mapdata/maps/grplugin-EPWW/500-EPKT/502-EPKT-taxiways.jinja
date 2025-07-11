@@ -3,6 +3,6 @@ AIRPORT:EPKT
 FOLDER:Airport Layout
 ACTIVE:1
 
-{% for name, geom in data.epkt_kml['Taxiways'].items() %}
+{% for name, geom in data.epkt_kml['TWY'].items() %}
     {{- geom | to_poly(name, 'taxiway') }}
 {% endfor %}
