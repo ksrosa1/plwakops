@@ -15,6 +15,10 @@
 .autosquawk Set squawk $asquawk
 
 ;*** GENERAL ***
+.y Affirmative
+..y Poprawnie
+.n Negative
+..n Niepopranie
 .bye Bye!
 ..bye Do milego, czesc!
 .gd $radioname, good day.
@@ -52,12 +56,12 @@
 ;*** - DELIVERY - ***
 .nofp I have not received a flight plan from you. Please make sure you have actually filed one, have set the correct ICAO codes for the departure and arrival airport, and that the callsign in your flight plan and the one you are connected with are the same.
 ..nofp Nie dostalem twojego planu lotu. Prosze upewnij sie, ze go zlozyles, wpisales poprawne kody ICAO lotniska odlotowego i docelowego oraz masz ten sam callsign, jak w planie lotu.
-.clr You are cleared for flight to $arr via flight planned route, $sid departure runway from $deprwy, climb initially $temp, squawk $asquawk. Current weather information $atiscode
-..clr Masz zezwolenie na lot do $arr drogami planowanymi, odlot $sid z pasa $deprwy, wznos poczatkowo $temp, kod transpondera $asquawk. Informacja pogodowa $atiscode
-.clrvfr You are cleared for VFR flight in $1 CTR, not higher than altitude $2 ft, departure runway $deprwy, squawk $asquawk.
-..clrvfr Zezwalam na lot VFR w CTR $1, nie wyzej niz altitude $2 ft, odlot z pasa $deprwy, transponder $asquawk.
-.clrrwc You are cleared for flight to $arr via flight planner route, departure runway $deprwy, after departure fly heading $1, climb to altitude $2 ft, squawk $asquawk. Current weather information $atiscode
-..clrrwc Masz zezwolenie na lot do $arr drogami planowanymi, odlot z pasa $deprwy, po odlocie wznos do wysokosci $1 z kursem $2, kod transpondera $asquawk. Informacja pogodowa $atiscode
+.ifr You are cleared for flight to $arr via flight planned route, $sid departure runway from $deprwy, climb initially $temp, squawk $asquawk. Current information $atiscode
+..ifr Masz zezwolenie na lot do $arr drogami planowanymi, odlot $sid z pasa $deprwy, wznos poczatkowo $temp, kod transpondera $asquawk. Informacja $atiscode
+.vfr You are cleared for VFR flight in $1 CTR, not higher than altitude $2 ft, departure runway $deprwy, squawk $asquawk.
+..vfr Zezwalam na lot VFR w CTR $1, nie wyzej niz altitude $2 ft, odlot z pasa $deprwy, transponder $asquawk.
+.ifrnon You are cleared for flight to $arr via flight planner route, departure runway $deprwy, after departure fly heading $1, climb to altitude $2 ft, squawk $asquawk. Current information $atiscode
+..ifrnon Masz zezwolenie na lot do $arr drogami planowanymi, odlot z pasa $deprwy, po odlocie wznos do wysokosci $1 z kursem $2, kod transpondera $asquawk. Informacja $atiscode
 .dcl CLD $time $dep PDC $aircraft CLRD TO $arr OFF $deprwy VIA $sid SQUAWK $asquawk NEXT FREQ $freq($1) SID INITIAL CLIMB ALTITUDE $temp. AIRBORNE FREQUENCY $freq($2).
 .rbc Clearance copied correct.
 ..rbc Zezwolenie zapisane prawidlowo.
@@ -174,6 +178,8 @@
 ..rc W kontakcie radarowym
 .qnh QNH $altim($arr)
 ..qnh QNH $altim($arr)
+.nair You are not in my airspace. Please check our map at https://plvacc.pl/
+..nair Nie jestes w mojej przestrzeni. Proszę sprawdzić naszą mapę na https://plvacc.pl/
 
 ;-- ROUTE AND HEADING --
 .rh Turn right heading $1.
@@ -331,9 +337,10 @@
 ..wake Uwaga na turbulencje w sladzie aerodynamicznym.
 
 *** - HELP AND ADDITIONAL - ***
-.wallcoc .wallop $aircraft unable to comply with ATC instructions (CoC B8)
-.wallnocont .wallop $aircraft not in contact with anyone and ignoring contact me messages (CoC B3), first contact me sent at $1
-.wallemer .wallop $aircraft not cancelling their emergency despite having been instructed to do so (CoC B6)
+.wall .wallop Hello, $aircraft
+.wallcoc .wallop Hello, $aircraft unable to comply with ATC instructions (CoC B8)
+.wallnocont .wallop Hello, $aircraft not in contact with anyone and ignoring contact me messages (CoC B3), first contact me sent at $1
+.wallemer .wallop Hello, $aircraft not cancelling their emergency despite having been instructed to do so (CoC B6)
 .helpnewbie .msg $aircraft You seem to be new to VATSIM. First of all: Welcome! It might be tempting to jump straight in and start flying, but we suggest you read through some documentation first in order to prepare yourself for the situations you will encounter on the network. You can find a lot of helpful information at https://my.vatsim.net/learn.
 .helbrief .msg $aircraft You can find charts, pilot briefings and recommended sceneries for airports in Poland at https://vats.im/EPWW
 .helpiata .msg $aircraft You seem to be logged in with the 2-letter IATA code for your airline. On VATSIM (and in the real world), we use the 3-letter ICAO codes. Please change your callsign accordingly and don't forget that you will have to refile your flight plan with the correct callsign as well. Otherwise, ATC might not recognize your callsign
@@ -347,3 +354,7 @@
 .helpsimbrief If You for some reason don't understand flight planning or are unable to file a valid route please at least try to use freeware flight planner such as SimBrief at https://www.simbrief.com/home/.
 .helpnopush You are on remote stand that don't require pushback, only start-up. After start-up you can just taxi out of your stand. 
 ..helpnopush Znajdujesz sie na stanowisku oddalonym, ktore nie wymaga wypychania, jedynie uruchamiania. Po uruchomieniu mozesz wykolowac ze stanowiska.
+.ch .chat $aircraft
+.with Are you with me, on the frequency?
+.hmic Please check your microphone, you're still trasmitting
+.smic Please check your microphone, it's trasmitting static noise only
