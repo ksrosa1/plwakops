@@ -14,7 +14,7 @@
 	<DefaultTaxiTime minutes="7" />
 	<DeIceTimes light="3" medium="5" heavy="7" super="10"/>
 	<RefreshTime seconds="5" />
-	<Debug mode="true" />
+	<Debug mode="false" />
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
 	<vdgsFileType type="3" />
 	<ftpHost host="" />
