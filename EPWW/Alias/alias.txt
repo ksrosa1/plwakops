@@ -358,3 +358,5 @@
 .with Are you with me, on the frequency?
 .hmic Please check your microphone, you're still trasmitting
 .smic Please check your microphone, it's trasmitting static noise only
+.umic Please check your microphone, your transmissions are unreadable
+.svis .vis EPWA EPGD EPPO EPKK
