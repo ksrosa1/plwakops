@@ -16,7 +16,7 @@
 	<RefreshTime seconds="5" />
 	<Debug mode="false" />
 	<FlowRestrictions url="https://ecfmp.vatsim.net/api/v1/plugin" />
-	<vdgsFileType type="3" />
+	<vdgsFileType type="3"/>
 	<ftpHost host="" />
 	<ftpUser user="" />
 	<ftpPassword password="" />
