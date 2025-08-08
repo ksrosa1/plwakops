@@ -7,6 +7,8 @@ Airspace_ASSR_AutoAssign_AcceptCurrent=1
 Airspace_ASSR_Type=2
 Airspace_ASSR_AutoAssign_Type=2
 Airspace_C_Flag=EP
+Airspace_ModeS_Code_VFR=7000
+Airspace_ModeS_Code=1000
 Airspace_No_DUPE_Codes=7000,1000,1200,2000,0001,0002
 Airspace_NOTAM_Add=EPWW
 Airspace_P_Flag=EPBY,EPGD,EPKK,EPKT,EPLB,EPLL,EPMO,EPPO,EPRA,EPRZ,EPSC,EPSY,EPWA,EPWR,EPZG
@@ -30,6 +32,7 @@ APW_UseCFL=1
 APW_VFR=0
 
 //CPDLC System Settings
+CPDLC_Default=1
 CPDLC_MinLevel=95
 CPDLC_Transfer=1
 CPDLC_CFL=1
@@ -39,12 +42,20 @@ CPDLC_ASP=1
 CPDLC_PlaySound=1
 CPDLC_PDC_PlaySound=1
 
+Divergence_CLAM=0
 Divergence_Inhibit_ActiveAreas=1
+Divergence_RAM=0
 
 //Equip settings
 Equip_UseCodes=1
 Equip_ModeS=WZLCISG
 Equip_Use_SUR_Mode_S=0
+
+//FlightLeg settings
+FlightLeg_AssumeTime=5
+FlightLeg_AutoShow=1
+FlightLeg_Label_RFL=1
+FlightLeg_LineWidth=0
 
 HTTP_GRIB_Latitude_Max=55
 HTTP_GRIB_Latitude_Min=49
@@ -56,7 +67,6 @@ HTTP_NOTAM_Page_Prefix=notam/get-icao-format?icao=
 HTTP_NOTAM_Page_Suffix=&read=true
 
 //Label settings
-Label_ADES_MaxChars=4
 Label_AHDG_HideDctIfCOPX=0
 Label_AHDG_ShowExtra=1
 Label_Alt_Digits=3
@@ -141,15 +151,17 @@ System_UseReportedGS=1
 //Track settings
 Track_HistoryDots=0
 Track_PredictionLine=0
+Track_PredictionLine_Max=0
 
 //Fonts
+Areas_Label_Font=EuroScope
+FlightLeg_Font=EuroScope
+FlightLeg_FontSize=10
+Maps_Font=EuroScope
 System_GUI_Font_1_Size=12
 System_GUI_Font_2_Size=12
 System_GUI_Scale_Menus=1.1
 System_GUI_Scale_Tracks=1.1
-Areas_Label_Font=EuroScope
-FlightLeg_Font=EuroScope
-Maps_Font=EuroScope
 System_GUI_Font_1=EuroScope
 System_GUI_Font_2=EuroScope
 System_GUI_Font_Fixed_1=EuroScope
@@ -169,12 +181,15 @@ Vector_FplSep_Label_Time=1
 Vector_MinSep_Label_Time=1
 
 //Windows settings
+Window_CARD_Slider_Time=25
+Window_CARD_Slider_Distance=10
 Window_CPDLC_Setting=1,1,250
 Window_CPDLC_Current=0,570,45
 Window_QNHTL=0
 Window_MsgIn=0
 
 //WXR settings
+WXR_Brightness=25
 WXR_ImageSize=512
 WXR_Latitude_Max=56
 WXR_Latitude_Min=49
@@ -182,3 +197,30 @@ WXR_Latitude=52
 WXR_Longitude_Max=25
 WXR_Longitude_Min=13
 WXR_Longitude=19
+
+[_I_]
+Setup_LoadMap=VFR
+System_FIC_Position=1
+System_APL_Controlled=0
+
+[_CTR]
+Setup_LoadMap=HOLD
+Setup_LoadMap=VFR
+Setup_LoadMap=MVA
+Setup_LoadMap=TLL
+Setup_LoadMap=LOA
+Setup_LoadMap=TMA
+Setup_LoadMap=BORDER
+CPDLC_AutoAcceptLogon_Time=30
+CPDLC_Transfer=1
+CPDLC_AutoAcceptLogon=1
+CPDLC_CFL=1
+CPDLC_DCT=1
+CPDLC_AHDG=1
+CPDLC_ASP=1
+
+[_APP]
+Setup_LoadMap=MVA
+
+[EPWW_]
+Setup_LoadView=FIR

@@ -27,8 +27,8 @@ m_ShowOverflightPlanes:1
 SET_ShowTrackingPlanes:1
 m_METARList:1
 m_ShowTitleMetar:1
-m_ConnectSELtoSIL:0
-m_ConnectDEPtoSEL:0
+m_ConnectSELtoSIL:1
+m_ConnectDEPtoSEL:1
 m_ConnectSILtoTOP:0
 m_ScreenNumber:0
 m_ScreenPosition:0
@@ -55,4 +55,6 @@ m_ShowCdtOnCflCheck:0
 m_ShowTsVccsMiniControl:1
 ScenarioEditorX:0
 ScenarioEditorY:0
-m_ShowSTARControllers:1
+m_ShowSTARControllers:0
+MessageLinesNumber:4
+BackgroundGrphicsInThread:0
