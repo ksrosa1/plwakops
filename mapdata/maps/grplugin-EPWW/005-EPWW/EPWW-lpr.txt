@@ -128,7 +128,7 @@ SYMBOL:hospital:N052.14.22.800:E020.13.40.200:Sochaczew H541:4:0
 SYMBOL:hospital:N052.12.31.200:E020.58.57.600:Warszawa Banacha H545:4:0
 SYMBOL:hospital:N052.12.27.600:E020.59.03.000:Warszawa Banacha H621:4:0
 SYMBOL:hospital:N052.14.37.200:E021.01.07.800:Warszawa BBN Karowa H610:4:0
-SYMBOL:hospital:N052.17.31.200:E021.02.33.000:Warszawa Bródnowski H619:4:0
+SYMBOL:hospital:N052.17.31.200:E021.02.33.000:Warszawa Brodnowski H619:4:0
 SYMBOL:hospital:N052.12.25.800:E021.11.31.800:Warszawa CZD H622:4:0
 SYMBOL:hospital:N052.13.29.400:E020.59.51.600:Warszawa Lindleya H626:4:0
 SYMBOL:hospital:N052.11.57.600:E020.59.57.600:Warszawa MSW Woloska H616:4:0
