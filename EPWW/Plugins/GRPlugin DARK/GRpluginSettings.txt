@@ -247,7 +247,7 @@ Label=TWR:ARR:3:ATYP,0,0:WTC,0,0:ADES,0,1,1:STAND,0,1:RMK,0,1
 
 /--------------------LISTS---------------------
 
-List_Arrival=1,1215,50
+List_Arrival=0,1215,50
 List_Arrival_RWY=0
 List_Arrival_TYPE=1
 List_Arrival_WTC=0
@@ -257,7 +257,7 @@ List_Arrival_STAND=1
 List_Arrival_Items=20
 List_Arrival_MaxTime=30
 
-List_Departure=1,900,50
+List_Departure=0,900,50
 List_Departure_RWY=1
 List_Departure_SID=0
 List_Departure_TYPE=1
