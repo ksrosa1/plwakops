@@ -37,7 +37,7 @@ root = "EPWR"
 
 [profiles]
 
-[profiles.EPWW]
+[profiles.ACC]
 maps = [
     { map = "topsky-acc", target = "EPWW/Plugins/TopSky/ACC/TopSkyMaps.txt" },
 	{ map = "topsky-cpdlc", target = "EPWW/Plugins/TopSky/ACC/TopSkyCPDLC.txt" },
@@ -45,17 +45,23 @@ maps = [
 	{ map = "topsky-ssr", target = "EPWW/Plugins/TopSky/ACC/TopSkySSRcodes.txt" },
 ]
 dir = "EPWW/Plugins/TopSky/ACC"
-aliases = [ "epww" ]
+aliases = [ "acc" ]
+
+[profiles.TWR]
+maps = [
+    { map = "topsky-twr", target = "EPWW/Plugins/TopSky/TWR/TopSkyMaps.txt" },
+	{ map = "topsky-cpdlc", target = "EPWW/Plugins/TopSky/TWR/TopSkyCPDLC.txt" },
+    { map = "topsky-settings", target = "EPWW/Plugins/TopSky/TWR/TopSkySettings.txt" },
+	{ map = "topsky-ssr", target = "EPWW/Plugins/TopSky/TWR/TopSkySSRcodes.txt" },
+]
+dir = "EPWW/Plugins/TopSky/TWR"
+aliases = [ "twr" ]
 
 [profiles.TWR_DARK]
 maps = [
     { map = "grplugin-EPWW", target = "EPWW/Plugins/GRPlugin DARK/GRpluginMaps.txt" },
     { map = "grplugin-stands", target = "EPWW/Plugins/GRPlugin DARK/GRpluginStands.txt" },
     { map = "grplugin-settings", target = "EPWW/Plugins/GRPlugin DARK/GRpluginSettings.txt" },
-    { map = "topsky-twr", target = "EPWW/Plugins/TopSky/TWR/TopSkyMaps.txt" },
-	{ map = "topsky-cpdlc", target = "EPWW/Plugins/TopSky/TWR/TopSkyCPDLC.txt" },
-    { map = "topsky-settings", target = "EPWW/Plugins/TopSky/TWR/TopSkySettings.txt" },
-	{ map = "topsky-ssr", target = "EPWW/Plugins/TopSky/TWR/TopSkySSRcodes.txt" },
 ]
 dir = "EPWW/Plugins/"
 aliases = [ "dark" ]
@@ -65,10 +71,6 @@ maps = [
     { map = "grplugin-EPWW", target = "EPWW/Plugins/GRPlugin BRIGHT/GRpluginMaps.txt" },
     { map = "grplugin-stands", target = "EPWW/Plugins/GRPlugin BRIGHT/GRpluginStands.txt" },
     { map = "grplugin-settings", target = "EPWW/Plugins/GRPlugin BRIGHT/GRpluginSettings.txt" },
-    { map = "topsky-twr", target = "EPWW/Plugins/TopSky/TWR/TopSkyMaps.txt" },
-	{ map = "topsky-cpdlc", target = "EPWW/Plugins/TopSky/TWR/TopSkyCPDLC.txt" },
-    { map = "topsky-settings", target = "EPWW/Plugins/TopSky/TWR/TopSkySettings.txt" },
-	{ map = "topsky-ssr", target = "EPWW/Plugins/TopSky/TWR/TopSkySSRcodes.txt" },
 ]
 dir = "EPWW/Plugins/"
 aliases = [ "bright" ]
