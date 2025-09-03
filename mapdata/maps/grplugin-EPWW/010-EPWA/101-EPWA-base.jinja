@@ -38,5 +38,5 @@ COLOR:baseepwa
 COORDTYPE:OTHER:REGION
 
 {% for name, geom in data.epwa_kml['Base'].items() %}
-    {{- geom | to_poly(name, 'runwayepwa') }}
+    {{- geom | to_poly(name, 'baseepwa') }}
 {% endfor %}
