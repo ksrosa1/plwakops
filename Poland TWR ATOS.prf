@@ -23,7 +23,7 @@ Plugins	Plugin3	\EPWW\Plugins\TopSky\TWR\TopSky.dll
 Plugins	Plugin3Display0	Ground Radar display
 Plugins	Plugin3Display1	SMR radar display
 Plugins	Plugin3Display2	Standard ES radar screen
-Plugins	Plugin4	\EPWW\Plugins\GRPlugin DARK\GRplugin.dll
+Plugins	Plugin4	\EPWW\Plugins\GRPlugin BRIGHT\GRplugin.dll
 Plugins	Plugin4Display0	Ground Radar display
 Plugins	Plugin4Display1	Standard ES radar screen
 Plugins	Plugin4Display2	SMR radar display
